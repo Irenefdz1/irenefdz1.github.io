@@ -5,7 +5,10 @@
   <link>https://irenefdz1.github.io/</link>
   <description>Técnicas modernas de diseño web</description>
 
-  <atom:link href="https://irenefdz1.github.io/proyecto_css.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://irenefdz1.github.io/proyecto_css.xml" 
+           rel="self" 
+           type="application/rss+xml"/>
+
   <image>
     <url>https://irenefdz1.github.io/rss-icon.png</url>
     <title>Proyecto CSS - Actualizaciones</title>
