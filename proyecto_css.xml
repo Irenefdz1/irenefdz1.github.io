@@ -2,36 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Proyecto CSS - Actualizaciones</title>
-  <link>https://tunombre.github.io</link>
+  <link>https://irenefdz1.github.io/</link>
   <description>Técnicas modernas de diseño web</description>
-  
-  <!-- Auto-referencia para GitHub Pages -->
-  <atom:link href="https://tunombre.github.io/proyecto_css.xml" 
-           rel="self" 
-           type="application/rss+xml"/>
-  
-  <!-- Imagen en GitHub Pages -->
+
+  <atom:link href="https://irenefdz1.github.io/proyecto_css.xml" rel="self" type="application/rss+xml"/>
   <image>
-    <url>https://tunombre.github.io/rss-icon.png</url>
+    <url>https://irenefdz1.github.io/rss-icon.png</url>
     <title>Proyecto CSS - Actualizaciones</title>
-    <link>https://tunombre.github.io</link>
+    <link>https://irenefdz1.github.io/</link>
   </image>
 
   <language>es</language>
   <pubDate>Wed, 24 Apr 2024 12:00:00 GMT</pubDate>
 
-  <!-- Artículos con URLs absolutas GitHub -->
   <item>
     <title>Lanzamiento de CSS Grid 3.0</title>
-    <link>https://tunombre.github.io/css-grid-3.html</link>
+    <link>https://irenefdz1.github.io/css-grid-3.html</link>
     <description>Nuevas características para diseño responsivo avanzado</description>
     <guid isPermaLink="false">css-grid-3-release</guid>
   </item>
-  
+
   <item>
     <title>Tutorial: Variables CSS</title>
-    <link>https://tunombre.github.io/tutorial-variables.html</link>
-    <description>Guía práctica para custom properties</description>
+    <link>https://irenefdz1.github.io/tutorial-variables.html</link>
+    <description>Guía práctica para implementar custom properties</description>
     <guid isPermaLink="false">css-variables-guide</guid>
   </item>
 </channel>
