@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto CSS - Actualizaciones</title> <!-- Título unificado con RSS -->
+  
+  <!-- Enlace al feed RSS con URL absoluta -->
+  <link rel="alternate" type="application/rss+xml" 
+        href="https://tudominio.com/proyecto_css.xml" 
+        title="Actualizaciones del proyecto CSS" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .rss-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+    }
+
+    .rss-container img {
+      transition: transform 0.3s;
+    }
+
+    .rss-container img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proyecto CSS - Actualizaciones</h1> <!-- Coincide con <channel><title> -->
+    <p>Técnicas modernas de diseño web</p>
+  </header>
+
+  <main>
+    <section id="novedades">
+      <h2>Últimas novedades</h2>
+
+      <!-- Artículo 1 (coincide con RSS) -->
+      <article>
+        <h3>Lanzamiento de CSS Grid 3.0</h3> <!-- Mismo título que en RSS -->
+        <p>Nuevas características para diseño responsivo avanzado</p>
+        <a href="https://tudominio.com/css-grid-3">Ver tutorial</a> <!-- URL absoluta -->
+      </article>
+
+      <!-- Artículo 2 (coincide con RSS) -->
+      <article>
+        <h3>Tutorial: Variables CSS</h3>
+        <p>Guía práctica para implementar custom properties</p>
+        <a href="https://tudominio.com/tutorial-variables-css">Ver estudio</a>
+      </article>
+    </section>
+
+    <section id="tutoriales">
+      <h2>Tutoriales técnicos</h2>
+      <article>
+        <h3>Scroll-driven Animations</h3>
+        <p>Guía práctica para animaciones vinculadas al scroll.</p>
+        <a href="https://tudominio.com/animaciones">Ver ejemplos</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="rss-container">
+      <a href="https://tudominio.com/proyecto_css.xml" aria-label="Suscríbete al feed RSS">
+        <img src="assets/icons8-rss-96.png" alt="Feed RSS" width="32" height="32" />
+      </a>
+      <p>¡Suscríbete para recibir actualizaciones técnicas!</p>
+    </div>
+    <p>© 2024 [Tu Nombre] - Licencia Creative Commons</p>
+  </footer>
+</body>
+</html>
